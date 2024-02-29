@@ -9,7 +9,7 @@ from PIL import Image, ImageChops
 import PIL.ImageOps
 import os
 
-model = tf.keras.models.load_model('big_brain4')
+model = tf.keras.models.load_model('big_brain3')
 
 images = []
 for root, dirs, files in os.walk(os.getcwd()):
